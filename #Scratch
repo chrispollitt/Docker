@@ -1,0 +1,17 @@
+# Scratch
+git config --global user.email "chris.pollitt@gmail.com"
+git config --global user.name "Chris Pollitt"
+
+git remote add origin https://github.com/chrispollitt/Docker.git
+git branch -M main
+git push -u origin main
+
+--------
+
+docker exec -it 90f22c744057 /bin/bash
+Debian GNU/Linux 10 (buster)
+
+-------
+
+service tomcat9 stop
+service apache2 stop
